@@ -45,8 +45,6 @@ def pegasos_kernel_svm(data, labels, kernel='linear', lambda_val=0.01, iteration
     tuple: A tuple containing:
         - alphas (list): The dual variables, rounded to 4 decimal places.
         - b (float): The bias term, rounded to 4 decimal places.
-
-    Note:
     This implementation is efficient due to its use of vectorized operations and its 
     ability to work with both linear and RBF kernels. The Pegasos algorithm is known 
     for its fast convergence properties, making it suitable for large-scale learning tasks.
